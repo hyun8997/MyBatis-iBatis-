@@ -1,0 +1,21 @@
+> library : 필요할 때 꺼내서 쓰려고 잘 모아놓은 것
+			ex) 가위, 도끼, 톱 .. => 도구 => 도구함
+			 - 망치가 필요한 상황 -> 도끼 뒷날로 작업(?)
+			 => 목표를 수행하기 위해 필요한 것들을 가져다가 사용자(개발자)가 알아서 활용해서 쓰는 방식
+
+  framework : 유기적 연관관계가 있는 것들을 모아놓은 것
+  			ex) 자동차 => 다양한 부품들이 모여있음
+  			 => 사용자(개발자)가 각 부품들이 어떤 역할을 하는지 알 필요가 없이 정해진 규칙대로 사용하는 방식
+  			 => 훨씬 편하고 유용한 방식
+  			 
+> mybatis framework
+ - DAO와 DBMS 사이에서 작업
+ - model (business layer + persistence layer)
+ - 대체로 변하지 않는 곳 -> persistence layer ->persistence layer framework => ORM framework
+
+ - JDBC를 대체하는 DB 연결만을 담당하는 프레임워크
+ - 국내 많은 프로젝트들이 XML을 이용해서 SQL문을 작성하는 형태로 별도의 DAO 기능을 수행하는 것을 선호 
+  => SQL 수정, 유지, 보수에 적합
+
+
+
